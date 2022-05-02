@@ -1,5 +1,5 @@
 angular
-  .module("todo", [])
+  .module("todo")
   .directive("todolist", function () {
     "use strict";
 
