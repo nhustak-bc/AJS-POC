@@ -40,4 +40,3 @@ angular
   });
 
 
-  angular.module('app', ['todo'])

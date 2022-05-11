@@ -1,6 +1,9 @@
 <!doctype html>
 <html ng-app="todo">
   <head>  
+    <script src="runtime.js"></script>
+    <script src="polyfills.js"></script>
+    <script src="main.js"></script>
     <script src="angular.min.js"></script>
     <script src="pre.js"></script>
     <script src="todo/todo.js"></script>
@@ -10,5 +13,8 @@
   </head>
   <body>              
     <todo-comp></todo-comp>
+
+    <analytics-counter></analytics-counter>
+    
   </body>
 </html>
